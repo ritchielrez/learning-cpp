@@ -1,5 +1,9 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello from Chapter 3!\n";
+    std::string cars[] = {"Volvo", "BMW", "Mercedes", "Lamborghini"};
+
+    for(std::string car: cars) {
+        std::cout << car << "\n";
+    }
 }
