@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <cctype>
-#include <ctype.h>
 #include <iostream>
 #include <string>
 
